@@ -18,4 +18,4 @@
 
 
 ```markdown
-![PE Analyzer Interface](https://github.com/sh4cl0w/Parse-PE-file/blob/main/project/Screenshot%202025-11-12%20145238.png?raw=true)
+![PE Analyzer Interface](https://raw.githubusercontent.com/sh4cl0w/Parse-PE-file/refs/heads/main/project/Screenshot%202025-11-12%20145238.png)?raw=true)
