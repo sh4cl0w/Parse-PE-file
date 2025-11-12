@@ -17,31 +17,5 @@
 ---
 
 
-## ⚙️ Các hàm chính
-
-### 🔹 `CaDlg::ParsePEFile(const CString& filePath)`
-- Mở file PE, ánh xạ vào bộ nhớ, kiểm tra hợp lệ và gọi các hàm hiển thị.
-- Tự động nhận dạng file **PE32 hoặc PE64**.
-
-### 🔹 `DisplayDOSHeader(PIMAGE_DOS_HEADER pDosHeader)`
-- Hiển thị thông tin cơ bản của DOS header (`e_magic`, `e_lfanew`).
-
-### 🔹 `DisplayNTHeaders32/64(PIMAGE_NT_HEADERS32/64 pNtHeaders, LPVOID lpBase)`
-- Hiển thị các trường của NT Header (Signature, Machine, EntryPoint, ImageBase...).
-
-### 🔹 `DisplaySectionHeaders(PIMAGE_NT_HEADERS pNtHeaders, LPVOID lpBase)`
-- Liệt kê các section `.text`, `.data`, `.rsrc`,... và thông tin chi tiết của chúng.
-
-### 🔹 `DisplayImportTable(PIMAGE_NT_HEADERS pNtHeaders, LPVOID lpBase, DWORD fileSize)`
-- Phân tích và hiển thị danh sách DLL và hàm được import.
-
-### 🔹 `DisplayExportTable(PIMAGE_NT_HEADERS pNtHeaders, LPVOID lpBase)`
-- Phân tích và hiển thị danh sách các hàm được export.
-
-### 🔹 `RvaToRawOffset(PIMAGE_NT_HEADERS pNtHeaders, DWORD rva)`
-- Chuyển đổi địa chỉ **RVA** sang **Raw File Offset**.
-
----
-
 ```markdown
-![PE Analyzer Interface](screenshots/app.png)
+![PE Analyzer Interface](<img width="652" height="492" alt="Screenshot 2025-11-12 145238" src="https://github.com/user-attachments/assets/44565854-cb15-42df-8b0e-af97bff78ab7" />)
