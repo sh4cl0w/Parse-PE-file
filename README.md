@@ -18,4 +18,4 @@
 
 
 ```markdown
-![PE Analyzer Interface](<img width="652" height="492" alt="Screenshot 2025-11-12 145238" src="https://github.com/user-attachments/assets/44565854-cb15-42df-8b0e-af97bff78ab7" />)
+![PE Analyzer Interface](https://github.com/sh4cl0w/Parse-PE-file/blob/main/project/Screenshot%202025-11-12%20145238.png?raw=true)
